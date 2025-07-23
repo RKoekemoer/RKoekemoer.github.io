@@ -6,44 +6,84 @@
   <title>Ruan Koekemoer's Virtual CV</title>
 
   <!-- Bootstrap -->
-  <link href="css/bootstrap/bootstrap.min.css" type="text/css">
-  <link href="css/bootstrap/bootstrap-grid.min.css" type="text/css">
-  <link href="css/bootstrap/bootstrap-utilities.min.css" type="text/css">
-  <link href="css/bootstrap/bootstrap-reboot.min.css" type="text/css">
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap/bootstrap-utilities.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap/bootstrap-reboot.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <link href="css/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Own CSS -->
-  <link href="css/style.css" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
 <section>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <h1>
-          Hello! I'm Ruan Koekemoer
-        </h1>
-      </div>
+  <div class="modeToggler" title="Toggle dark mode">
+    <!-- Dark mode -->
+    <div class="darkMode active">
+      <i class="fa-regular fa-moon"></i>
     </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <p>Welcome to my virtual CV website.</p>
-        <p>This site is under construction.</p>
+
+    <!-- Light mode -->
+    <div class="lightMode ">
+      <i class="fa-solid fa-moon"></i>
+    </div>
+  </div>
+</section>
+
+<!-- Intro -->
+<section id="Introduction">
+  <img src="images/home/f83a93fc5bbade48837e004cc63bb33c.jpg" alt="Background">
+  <div class="positioner">
+    <div class="content">
+      <div class="container">
+        <div class="row flex-row-reverse ">
+          <div class="col-lg-6 offset-lg-2 col-md-8 col-xl-5 offset-xl-1">
+            <div class="introText">
+              <h1>
+                Hello, I'm Ruan Koekemoer.
+              </h1>
+              <div class="currentPosition">
+                IT and Full Stack Developer
+              </div>
+              <div>
+                Passionate about creating elegant solutions to complex problems. With 7+ years of experience in web development, I specialize in building scalable applications using modern technologies.
+              </div>
+            </div>
+            <div class="linksContainer">
+              <a href="downloads/Ruan_Koekemoer_CV.pdf" target="_blank">
+                <div class="btn btn-lg">
+                  View CV
+                </div>
+              </a>
+              <a href="mailto:ruan_koekemoer@hotmail.com" target="_self">
+                <div class="btn btn-lg">
+                  Contact Me
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-  <!-- jQuery link in -->
-  <script src="js/jquery.js" type="text/javascript"></script>
+<!-- jQuery link in -->
+<script src="js/jquery.js" rel="script" type="text/javascript"></script>
 
-  <!-- Own JS -->
-  <script src="js/script.js" type="text/javascript"></script>
+<!-- Own JS -->
+<script src="js/script.js" rel="script" type="text/javascript"></script>
 
-  <!-- Bootstrap link in -->
-  <script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/bootstrap/bootstrap.bundle.min.js" type="text/javascript"></script>
+<!-- Bootstrap link in -->
+<script src="js/bootstrap/bootstrap.min.js" rel="script" type="text/javascript"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js" rel="script" type="text/javascript"></script>
 
 </body>
 </html>

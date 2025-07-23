@@ -1,0 +1,149 @@
+.modeToggler {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.modeToggler .darkMode, .modeToggler .lightMode {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    width: fit-content;
+    margin: 15px 15px 15px auto;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.modeToggler .darkMode {
+    display: none;
+    background: #000000;
+}
+
+.modeToggler .darkMode i {
+    color: #ffffff;
+}
+
+.modeToggler .lightMode {
+    display: none;
+    background: #ffffff;
+}
+
+.modeToggler .darkMode.active, .modeToggler .lightMode.active {
+    display: block;
+}
+
+/* Intro */
+#Introduction {
+    position: relative;
+}
+
+#Introduction .positioner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Introduction .positioner .introText {
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 1px;
+    text-align: end;
+}
+
+#Introduction .positioner .introText .currentPosition {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#Introduction .positioner .linksContainer {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Introduction .positioner .linksContainer .btn {
+    border: 1px solid #efefef;
+    color: #ffffff;
+}
+
+#Introduction .positioner .linksContainer a:last-of-type .btn {
+    margin-right: 25px;
+}
+
+#Introduction .positioner .linksContainer .btn:hover {
+    animation: fillDiv 300ms forwards;
+    color: #000000;
+}
+
+
+
+@keyframes fillDiv {
+    0% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    5% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 5%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    10% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    15% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15) 15%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    20% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    25% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25) 25%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    30% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    35% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.35) 35%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    40% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    45% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.45) 45%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    50% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    55% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.55) 55%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    60% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6) 60%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    65% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.65) 65%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    70% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    75% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75) 75%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    80% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    85% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 85%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    90% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 90%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    95% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 95%, rgba(255, 255, 255, 0.0) 100%);
+    }
+    100% {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 1.0) 100%, rgba(255, 255, 255, 0.0) 100%);
+    }
+}
