@@ -24,39 +24,8 @@ section:last-of-type {
     margin-bottom: 0;
 }
 
-.modeToggler {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.modeToggler .darkMode, .modeToggler .lightMode {
-    border: 1px solid #000000;
-    padding: 8px 15px;
-    width: fit-content;
-    margin: 15px 15px 15px auto;
-    border-radius: 35px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.modeToggler .darkMode {
-    display: none;
-    background: #000000;
-}
-
-.modeToggler .darkMode i {
-    color: #ffffff;
-}
-
-.modeToggler .lightMode {
-    display: none;
-    background: #ffffff;
-}
-
-.modeToggler .darkMode.active, .modeToggler .lightMode.active {
-    display: block;
+.allCaps {
+    text-transform: uppercase;
 }
 
 /* Intro */
@@ -315,6 +284,70 @@ section:last-of-type {
 
 #skills #databaseTech .filler {
     background: rgb(251, 146, 60);
+}
+
+#game {
+    background: rgb(249, 250, 251);
+}
+
+#startGame {
+    border: 2px solid #000000;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    background: #ffffff;
+    transition: ease-in-out 150ms;
+}
+
+#startGame:hover {
+    background: #efefef;
+    transform: scale(1.2);
+}
+
+#catAndMouse {
+    border: 1px solid #000;
+}
+
+#theBoard {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#theBoard .feedback {
+    margin-left: 15px;
+    text-align: end;
+}
+
+#theBoard .feedback span {
+    font-weight: bold;
+}
+
+#theBoard .gameOver {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background: #ffffff;
+    border: 1px dotted #efefef;
+    padding: 25px;
+}
+
+#theBoard .gameOver p {
+    margin-bottom: 3px;
+}
+
+#theBoard .gameOver h6 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#theBoard .gameOver.show {
+    display: block;
+}
+
+#totalScore {
+    font-weight: bold;
 }
 
 @keyframes fillDiv {
