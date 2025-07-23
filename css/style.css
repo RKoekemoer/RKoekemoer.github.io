@@ -204,6 +204,7 @@ section:last-of-type {
     background: #ffffff;
     padding: 15px 20px;
     border-radius: 25px;
+    visibility: hidden;
 }
 
 #education .educationItem .platformInfo {
