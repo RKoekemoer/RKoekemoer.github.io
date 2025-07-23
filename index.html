@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ruan Koekemoer's Virtual CV</title>
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <!-- Bootstrap -->
   <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
@@ -14,8 +19,9 @@
   <!-- Animate.css -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 
-  <!-- Font awesome -->
-  <link href="css/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- icons -->
+  <!--<link href="css/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet" type="text/css">
 
   <!-- Own CSS -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -23,19 +29,17 @@
 </head>
 <body>
 
-<section>
-  <div class="modeToggler" title="Toggle dark mode">
-    <!-- Dark mode -->
-    <div class="darkMode active">
-      <i class="fa-regular fa-moon"></i>
-    </div>
-
-    <!-- Light mode -->
-    <div class="lightMode ">
-      <i class="fa-solid fa-moon"></i>
-    </div>
+<div class="modeToggler" title="Toggle dark mode">
+  <!-- Dark mode -->
+  <div class="darkMode active">
+    <i class="ri-moon-line"></i>
   </div>
-</section>
+
+  <!-- Light mode -->
+  <div class="lightMode ">
+    <i class="ri-moon-fill"></i>
+  </div>
+</div>
 
 <!-- Intro -->
 <section id="Introduction">
@@ -69,6 +73,205 @@
               </a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About me -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="personality">
+          <h3>
+            About me
+          </h3>
+          <div>
+            <p>
+              I prefer to keep my head down and get the job done before resting or spending time on any leisure activities. I enjoy a good laugh and always try to be as friendly and polite as possible. I’m curious by nature and google a lot of things, especially if I feel it could lead to gaining more knowledge. When something is at risk, I prefer to play it safe, double checking where I can to ensure a problem doesn’t grow but rather gets resolved.
+            </p>
+            <p>
+              In my personal time I enjoy gaming, spending time with family and exploring my curiosity around the internet. I like to learn new things where I can and enjoy the challenges that come with figuring out new code.
+            </p>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/RKoekemoer" target="_blank" title="Github">
+              <div>
+                <i class="ri-github-line"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/ruan-koekemoer-017320340" target="_blank" title="LinkedIn">
+              <div>
+                <i class="ri-linkedin-line"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 offset-lg-1">
+        <h3>
+          Work Experience
+        </h3>
+        <div id="ExperienceAccordions">
+
+          <div class="accordionItem">
+            <div class="company">
+              <div class="logo">
+                <img src="images/home/studio5_logo.jpg" alt="Studio 5 Graphic Design">
+              </div>
+              <div class="details">
+                <h5>
+                  Studio 5 Graphic Design
+                </h5>
+                <div class="title">
+                  Developer and IT support
+                </div>
+                <div class="duration">
+                  2018&nbsp;-&nbsp;Present&nbsp;•&nbsp;Rosebank,&nbsp;JHB
+                </div>
+              </div>
+            </div>
+            <div class="responsibilities">
+              <ul>
+                <li>
+                  Develop and maintain backend systems for corporate websites and online reports using PHP and SQL.
+                </li>
+                <li>
+                  Implement responsive front-end designs using HTML, CSS (Bootstrap), JavaScript.
+                </li>
+                <li>
+                  Adapt to client-specific technology stacks, including learning C# and Umbraco CMS, Contentful CMS when required.
+                </li>
+                <li>
+                  Collaborate with team members to solve technical challenges and research new technologies for improved client solutions.
+                </li>
+                <li>
+                  Work with various development and hosting technologies, including GitHub, AWS, Microsoft Azure.
+                </li>
+                <li>
+                  Manage Office 365 and Google Workspace (Enterprise G-Suite) administration.
+                </li>
+                <li>
+                  Provide first- and second-line IT support for Windows and macOS users in the office.
+                </li>
+                <li>
+                  Maintain and troubleshoot internal office and remote infrastructure to ensure minimal downtime.
+                </li>
+                <li>
+                  Administer and manage domain configurations and DNS settings for various clients.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="accordionItem">
+            <div class="company">
+              <div class="logo">
+                <img src="images/home/netsurit_logo.jpg" alt="Netsurit Pty Ltd">
+              </div>
+              <div class="details">
+                <h5>
+                  Netsurit
+                </h5>
+                <div class="title">
+                  IT Support
+                </div>
+                <div class="duration">
+                  2017&nbsp;-&nbsp;2018&nbsp;•&nbsp;Rosebank,&nbsp;JHB
+                </div>
+              </div>
+            </div>
+            <div class="responsibilities">
+              <ul>
+                <li>
+                  Provided first- and second-line support for Windows and macOS users.
+                </li>
+                <li>
+                  Managed physical and virtual servers running Windows Server 2012 R2 and 2016.
+                </li>
+                <li>
+                  Administered user accounts in Office 365, including creation, removal, and license management.
+                </li>
+                <li>
+                  Performed daily backup operations using Backup Exec and verified successful backups.
+                </li>
+                <li>
+                  Monitored network performance and handled basic network troubleshooting.
+                </li>
+                <li>
+                  Set up and configured new workstations, including software installation and domain joining.
+                </li>
+                <li>
+                  Trained end users on basic IT tasks and best practices.
+                </li>
+                <li>
+                  Created and managed file shares and permissions via Active Directory.
+                </li>
+                <li>
+                  Provided remote support using TeamViewer and RealVNC.
+                </li>
+                <li>
+                  Maintained endpoint security using Sophos Antivirus and its management console.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="accordionItem">
+            <div class="company">
+              <div class="logo">
+                <img src="images/home/mrbsecure_logo.jpg" alt="Mr Backup Pty Ltd">
+              </div>
+              <div class="details">
+                <h5>
+                  Mr Backup
+                </h5>
+                <div class="title">
+                  Senior Technician
+                </div>
+                <div class="duration">
+                  2014&nbsp;-&nbsp;2017&nbsp;•&nbsp;Rosebank,&nbsp;JHB
+                </div>
+              </div>
+            </div>
+            <div class="responsibilities">
+              <ul>
+                <li>
+                  Installed and configured backup devices and software on client premises.
+                </li>
+                <li>
+                  Performed data restores from client backups to ensure data integrity and availability.
+                </li>
+                <li>
+                  Provided internal IT support for the organization’s staff and systems.
+                </li>
+                <li>
+                  Supported server and network configurations to ensure compatibility with backup devices.
+                </li>
+                <li>
+                  Managed proof-of-concept (POC) deployments at prospective client locations.
+                </li>
+                <li>
+                  Sold and supported backup devices, software licenses, and storage solutions.
+                </li>
+                <li>
+                  Built and maintained strong client relationships through support and account management.
+                </li>
+                <li>
+                  Led the technical support team in Gauteng, overseeing day-to-day operations.
+                </li>
+                <li>
+                  Worked with backup technologies including Veeam, StorageCraft, Data Replicator 3, Windows Backup, Carbon Copy Cloner, and Synology NAS systems.
+                </li>
+                <li>
+                  Supported environments running Microsoft Server 2008 and 2012 R2.
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

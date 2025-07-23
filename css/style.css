@@ -1,3 +1,20 @@
+img {
+    width: 100%;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+a {
+    text-underline: none;
+    text-decoration: none;
+}
+
+section {
+    margin: 25px 0;
+}
+
 .modeToggler {
     position: fixed;
     top: 0;
@@ -36,6 +53,7 @@
 /* Intro */
 #Introduction {
     position: relative;
+    margin-top: 0;
 }
 
 #Introduction .positioner {
@@ -80,7 +98,94 @@
     color: #000000;
 }
 
+#about .personality .socials {
+    display: flex;
+}
 
+#about .personality .socials a div {
+    font-size: 16px;
+    background: rgb(243 244 246);
+    padding: 7px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+#about .personality .socials a:first-of-type div {
+    margin-right: 15px;
+}
+
+#ExperienceAccordions {
+
+}
+
+#ExperienceAccordions .accordionItem {
+    padding: 20px 25px;
+    margin: 10px 0;
+    border-radius: 25px;
+    background: #e5e7eb;
+    transition: ease-in-out 250ms;
+}
+
+#ExperienceAccordions .accordionItem:hover {
+    box-shadow: 3px 3px 2px 1px #00000029;
+}
+
+#ExperienceAccordions .accordionItem .company {
+    display: flex;
+    flex-direction: row;
+    flex-basis: available;
+}
+
+#ExperienceAccordions .accordionItem .company .logo {
+    width: 25%;
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+#ExperienceAccordions .accordionItem .company .details h5 {
+    position: relative;
+    width: fit-content;
+}
+
+#ExperienceAccordions .accordionItem .company h5::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #000000;
+    transition: ease-in-out 250ms;
+}
+
+#ExperienceAccordions .accordionItem:hover .company h5::after  {
+    transform: scaleX(1);
+}
+
+#ExperienceAccordions .accordionItem .company .title {
+    font-weight: 500;
+}
+
+#ExperienceAccordions .accordionItem .company .duration {
+    color: rgb(138, 135, 135);
+}
+
+#ExperienceAccordions .accordionItem .responsibilities {
+    height: 0;
+    overflow: hidden;
+    transition: ease-in-out 250ms;
+}
+
+#ExperienceAccordions .accordionItem .responsibilities ul {
+    padding-left: 15px;
+}
+
+#ExperienceAccordions .accordionItem:hover .responsibilities {
+    height: 250px;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
 
 @keyframes fillDiv {
     0% {
