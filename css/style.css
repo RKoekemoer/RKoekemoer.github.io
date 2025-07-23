@@ -197,10 +197,69 @@ section:last-of-type {
 }
 
 #education {
-    background: rgb(249 250 251);
+    background: rgb(249, 250, 251);
 }
 
-#education
+#education .educationItem {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+#education .educationItem .platformInfo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#education .educationItem .platformInfo .icon {
+    padding: 10px 15px;
+    font-size: 26px;
+    background: rgba(26, 35, 126, 0.1);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#education .educationItem .platformInfo .icon i {
+    color: rgb(26, 35, 126);
+}
+
+#education .educationItem .platformInfo .details .name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#education .educationItem .platformInfo .details .type {
+    color: rgb(107, 114, 128);
+}
+
+#education .educationItem .courses {
+    color: rgb(75, 85, 99);
+    background: rgb(249, 250, 251);
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#education .educationItem .courses .courseName {
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#education .educationItem .connect {
+    color: rgb(26, 35, 126);
+    background: rgba(26, 35, 126, 0.1);
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: ease-in-out 200ms;
+}
+
+#education .educationItem:hover .connect {
+    color: #ffffff;
+    background: rgb(26, 35, 126);
+}
 
 @keyframes fillDiv {
     0% {
