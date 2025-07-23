@@ -12,7 +12,16 @@ a {
 }
 
 section {
-    margin: 25px 0;
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+section:first-of-type{
+    margin-top: 0;
+}
+
+section:last-of-type {
+    margin-bottom: 0;
 }
 
 .modeToggler {
@@ -53,7 +62,7 @@ section {
 /* Intro */
 #Introduction {
     position: relative;
-    margin-top: 0;
+    padding-top: 0;
 }
 
 #Introduction .positioner {
@@ -122,12 +131,12 @@ section {
     padding: 20px 25px;
     margin: 10px 0;
     border-radius: 25px;
-    background: #e5e7eb;
+    background: rgb(249 250 251);
     transition: ease-in-out 250ms;
 }
 
 #ExperienceAccordions .accordionItem:hover {
-    box-shadow: 3px 3px 2px 1px #00000029;
+    box-shadow: 3px 3px 2px 1px #ab9f9f61;
 }
 
 #ExperienceAccordions .accordionItem .company {
@@ -186,6 +195,12 @@ section {
     overflow-y: scroll;
     margin-top: 10px;
 }
+
+#education {
+    background: rgb(249 250 251);
+}
+
+#education
 
 @keyframes fillDiv {
     0% {
