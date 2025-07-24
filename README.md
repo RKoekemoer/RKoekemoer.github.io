@@ -25,23 +25,25 @@ Hi, I'm **Ruan Koekemoer** – a passionate Full Stack Developer and IT Speciali
 ---
 
 ## 📂 Folder Structure
+```text
 .
 ├── downloads/
-│ └── Ruan_Koekemoer_CV.pdf
+│   └── Ruan_Koekemoer_CV.pdf
 ├── images/
-│ └── home/
-│ ├── f83a93fc5bbade48837e004cc63bb33c.jpg
-│ ├── studio5_logo.jpg
-│ ├── netsurit_logo.jpg
-│ └── mrbsecure_logo.jpg
+│   └── home/
+│       ├── f83a93fc5bbade48837e004cc63bb33c.jpg
+│       ├── studio5_logo.jpg
+│       ├── netsurit_logo.jpg
+│       └── mrbsecure_logo.jpg
 ├── js/
-│ ├── bootstrap/
-│ │ ├── bootstrap.min.js
-│ │ └── bootstrap.bundle.min.js
-│ ├── jquery.js
-│ └── script.js
+│   ├── bootstrap/
+│   │   ├── bootstrap.min.js
+│   │   └── bootstrap.bundle.min.js
+│   ├── jquery.js
+│   └── script.js
 ├── index.html
 └── README.md
+```
 
 ---
 
