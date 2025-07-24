@@ -4,7 +4,7 @@ Welcome to my personal portfolio website, where I showcase my work experience, s
 
 ## 🌐 Live Demo
 
-> **[View the Portfolio Online »](https://rkoekemoer.github.io/)  
+> **[View the Portfolio Online »](https://rkoekemoer.github.io/)**  
 
 ---
 
@@ -70,3 +70,16 @@ An interactive **JavaScript Canvas game** where you control a mouse and try to e
 - Survive as long as you can!  
 - Cat gets faster over time.  
 - Score is based on how many moves you last.
+
+---
+## 📬 Contact Me
+
+📧 **[email](mailto:ruan_koekemoer@hotmail.com)**
+💼 **[LinkedIn Profile](www.linkedin.com/in/ruan-koekemoer-017320340)**
+💻 **[GitHub Profile](https://github.com/RKoekemoer)**
+
+---
+
+Thanks for visiting my portfolio and playing my game! If you enjoy it or want to collaborate, don’t hesitate to reach out.
+
+"Can't be 100% because you don't know what you don't know." – Me
