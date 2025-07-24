@@ -30,7 +30,10 @@
 <body>
 
 <section id="Introduction">
-  <img src="images/home/f83a93fc5bbade48837e004cc63bb33c.jpg" alt="Background">
+  <picture>
+    <source media="(max-width: 992px)" srcset="images/home/mobile.png">
+    <img src="images/home/f83a93fc5bbade48837e004cc63bb33c.jpg" alt="Background">
+  </picture>
   <div class="positioner animate__animated animate__backInUp">
     <div class="content">
       <div class="container">
@@ -431,7 +434,7 @@
     </div>
     <div class="row">
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
         <div id="frontendTech">
           <h4>
             Frontend Technologies
@@ -550,7 +553,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
         <div id="backendTech">
           <h4>
             Backend Technologies
@@ -647,7 +650,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
         <div id="databaseTech">
           <h4>
             Database Technologies
@@ -728,61 +731,76 @@
 
 <section id="game">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h3 class="text-center">
-          Please play some cat and mouse!
-        </h3>
-        <div class="text-center">
-          <h5>
-            Instructions
-          </h5>
-          <p>
-            You are the mouse (brown), You will be chased by the cat, which will get faster over time.
-            Try evade the cat as much as possible, the longer you're alive. the higher the score.
-          </p>
-          <div class="btn" id="startGame">
-            Start Game
+  <div class="theGame">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="text-center">
+            Please play some cat and mouse!
+          </h3>
+          <div class="text-center">
+            <h5>
+              Instructions
+            </h5>
+            <p>
+              You are the mouse (brown), You will be chased by the cat, which will get faster over time.
+              Try evade the cat as much as possible, the longer you're alive. the higher the score.
+            </p>
+            <div class="btn" id="startGame">
+              Start Game
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-12">
 
-        <div id="theBoard">
-          <canvas id="catAndMouse" width="600" height="600"></canvas>
-          <div class="feedback">
-            <div class="mouseSpeed">
-              The mouse moves every <span id="catSpeed">1000</span>ms.
+          <div id="theBoard">
+            <canvas id="catAndMouse" width="600" height="600"></canvas>
+            <div class="feedback">
+              <div class="mouseSpeed">
+                The mouse moves every <span id="catSpeed">1000</span>ms.
+              </div>
+              <div class="score">
+                You have survived <span id="catMoves">0</span> cat moves.
+              </div>
+              <p>
+                WASD is your movement keys
+              </p>
             </div>
-            <div class="score">
-              You have survived <span id="catMoves">0</span> cat moves.
-            </div>
-            <p>
-              WASD is your movement keys
-            </p>
-          </div>
-          <div class="gameOver">
-            <p>
-              The cat cheated, we all know it did.
-            </p>
-            <p>
-              But you managed to evade it for <span id="totalScore"></span> moves, I'm not sure if thats good or bad.
-            </p>
-            <h6 class="allCaps">
-              but well done and thanks for playing
-            </h6>
+            <div class="gameOver">
+              <p class="text-center">
+                The cat cheated, we all know it did.
+              </p>
+              <p>
+                But you managed to evade it for <span id="totalScore"></span> moves, I'm not sure if thats good or bad.
+              </p>
+              <h6 class="allCaps">
+                but well done and thanks for playing
+              </h6>
 
+            </div>
           </div>
+
         </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="mobileNote">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h3>
+            Please come back on desktop to play my unfamous cat and mouse game.
+          </h3>
+        </div>
       </div>
     </div>
   </div>
 
 </section>
+
 
 <!-- jQuery link in -->
 <script src="js/jquery.js" rel="script" type="text/javascript"></script>

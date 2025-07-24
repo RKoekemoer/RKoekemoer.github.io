@@ -101,7 +101,7 @@ $(document).ready(function () {
 
     /* Grid to help visualise movement */
     function drawGrid() {
-        ctx.strokeStyle = "#333";
+        ctx.strokeStyle = "#9c9494";
 
         for (let i = 0; i <= gridSize; i++) {
             //Vertical lines

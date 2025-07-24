@@ -350,6 +350,11 @@ section:last-of-type {
     font-weight: bold;
 }
 
+#game .mobileNote {
+    display: none;
+    text-align: center;
+}
+
 @keyframes fillDiv {
     0% {
         background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 100%);
@@ -413,5 +418,34 @@ section:last-of-type {
     }
     100% {
         background-image: linear-gradient(to right, rgba(255, 255, 255, 1.0) 100%, rgba(255, 255, 255, 0.0) 100%);
+    }
+}
+
+@media (pointer: coarse) {
+    #game .theGame {
+        display: none;
+    }
+
+    #game .mobileNote {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #ExperienceAccordions .accordionItem .responsibilities {
+        height: auto;
+    }
+
+    #education .educationItem {
+        margin-bottom: 25px;
+    }
+
+    #skills .col-md-6 {
+        margin-bottom: 25px;
+    }
+
+    #Introduction .positioner .linksContainer .btn {
+        background: #ffffffcf;
+        color: #000000;
     }
 }
