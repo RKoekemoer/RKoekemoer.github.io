@@ -436,6 +436,10 @@ section:last-of-type {
         height: 100%;
     }
 
+    #education {
+        overflow-x: hidden;
+    }
+
     #education .educationItem {
         margin-bottom: 25px;
     }
