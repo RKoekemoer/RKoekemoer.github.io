@@ -433,7 +433,7 @@ section:last-of-type {
 
 @media screen and (max-width: 992px) {
     #ExperienceAccordions .accordionItem .responsibilities {
-        height: auto;
+        height: 100%;
     }
 
     #education .educationItem {
